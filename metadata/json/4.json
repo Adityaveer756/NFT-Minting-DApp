@@ -1,0 +1,15 @@
+{
+    "image": "ipfs://QmPU7HjaWqeuST9NcfUUxTrpmMLjHcFijdUJFcT4SXrihp/cyberbot4.svg",
+    "tokenId": 4,
+    "name": "Luicy",
+    "attributes": [
+        {
+            "trait_type": "Gender",
+            "value": "female"
+        },
+        {
+            "trait_type": "Skincolor",
+            "value": "black"
+        }
+    ]
+}

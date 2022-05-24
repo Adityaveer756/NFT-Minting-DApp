@@ -1,0 +1,15 @@
+{
+    "image": "ipfs://QmPU7HjaWqeuST9NcfUUxTrpmMLjHcFijdUJFcT4SXrihp/cyberbot7.svg",
+    "tokenId": 7,
+    "name": "Will",
+    "attributes": [
+        {
+            "trait_type": "Gender",
+            "value": "male"
+        },
+        {
+            "trait_type": "Skincolor",
+            "value": "black"
+        }
+    ]
+}

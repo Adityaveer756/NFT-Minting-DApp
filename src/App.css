@@ -1,0 +1,113 @@
+.App {
+  text-align: center;
+
+}
+
+
+
+.main-app {
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  
+}
+
+.cta-button {
+  padding: 15px;
+  border: none;
+  border-radius: 12px;
+  min-width: 250px;
+  color: white;
+  font-size: 18px;
+  font-weight: 500;
+  font-family: 'Orbitron', sans-serif;
+  cursor: pointer;
+}
+
+.connect-wallet-button {
+  background: rgb(32, 129, 226);
+}
+
+.mint-nft-button {
+  background: #BF40BF;
+}
+
+.mint-nft-button1 {
+  background: #8cff00;
+  margin-bottom: 20px;
+}
+
+.a {
+  margin-bottom: 0px;
+}
+
+
+
+.contractAddress {
+  color: #EEEEFF;
+  font-family: Orbitron, sans-serif;
+  text-align: left;
+  margin-left:108px;
+  margin-bottom: 0px;
+}
+
+.contractAddress1 {
+  color:#CBC3E3;
+  font-family:  Helvetica,Arial, sans-serif;
+  font-size: small;
+  text-align: left;
+  margin-left:72px;
+
+}
+
+.mintState {
+  color: #BF40BF;
+  font-family:Helvetica,Arial, sans-serif;
+  font-size: smaller;
+}
+
+.mintState1{
+  color: #8cff00;
+  font-family:Helvetica,Arial, sans-serif;
+  font-size: smaller;
+  text-align: center;
+}
+
+.column{
+  flex: 33.33%;
+  padding: 5px;
+}
+
+.row {
+  margin-left: 50px;
+  margin-right: 10px;
+  display: flex;
+}
+
+.bgimg1 { 
+  float: left;
+}
+
+.bgimg2 {
+  margin-left: 500px;
+}
+
+.input1 {
+  border: none;
+  border-radius: 12px;
+  min-width: 250px;
+  text-align: center;
+  height: 25px;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+.input2 {
+  border: none;
+  text-align: center;
+  border-radius: 12px;
+  height: 25px;
+  width: 100px;
+  color:#BF40BF;
+  margin-bottom: 10px;
+}

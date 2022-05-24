@@ -1,0 +1,15 @@
+{
+    "image": "ipfs://QmPU7HjaWqeuST9NcfUUxTrpmMLjHcFijdUJFcT4SXrihp/cyberbot3.svg",
+    "tokenId": 3,
+    "name": "Alex",
+    "attributes": [
+        {
+            "trait_type": "Gender",
+            "value": "male"
+        },
+        {
+            "trait_type": "Skincolor",
+            "value": "white"
+        }
+    ]
+}

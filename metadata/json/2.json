@@ -1,0 +1,15 @@
+{
+    "image": "ipfs://QmPU7HjaWqeuST9NcfUUxTrpmMLjHcFijdUJFcT4SXrihp/cyberbot2.svg",
+    "tokenId": 2,
+    "name": "Ruby",
+    "attributes": [
+        {
+            "trait_type": "Gender",
+            "value": "female"
+        },
+        {
+            "trait_type": "Skincolor",
+            "value": "brown"
+        }
+    ]
+}

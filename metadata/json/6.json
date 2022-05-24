@@ -1,0 +1,15 @@
+{
+    "image": "ipfs://QmPU7HjaWqeuST9NcfUUxTrpmMLjHcFijdUJFcT4SXrihp/cyberbot6.svg",
+    "tokenId": 6,
+    "name": "Derreck",
+    "attributes": [
+        {
+            "trait_type": "Gender",
+            "value": "male"
+        },
+        {
+            "trait_type": "Skincolor",
+            "value": "brown"
+        }
+    ]
+}
