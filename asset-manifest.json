@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/NFT-Minting-DApp/static/css/main.478377f7.css",
+    "main.js": "/NFT-Minting-DApp/static/js/main.079c1d3d.js",
+    "static/media/CBHome.png": "/NFT-Minting-DApp/static/media/CBHome.e6c1de3077b972ce48d9.png",
+    "static/media/cyberbot11.svg": "/NFT-Minting-DApp/static/media/cyberbot11.75a67bbea8760e15239bc217d32962b0.svg",
+    "static/media/cyberbot1.svg": "/NFT-Minting-DApp/static/media/cyberbot1.e7f43869f9b098df169cf778b61ef63f.svg",
+    "index.html": "/NFT-Minting-DApp/index.html",
+    "main.478377f7.css.map": "/NFT-Minting-DApp/static/css/main.478377f7.css.map",
+    "main.079c1d3d.js.map": "/NFT-Minting-DApp/static/js/main.079c1d3d.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.478377f7.css",
+    "static/js/main.079c1d3d.js"
+  ]
+}
