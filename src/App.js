@@ -6,9 +6,7 @@ import background from "./utils/CBHome.png";
 import background1 from "./utils/cyberbot1.svg";
 import background2 from "./utils/cyberbot11.svg";
 
-import { getJsonWalletAddress } from "ethers/lib/utils";
-
-const contractAddress = "0x7fd0691b34DCaD29B73Ffc4e5c4d70768cd7337C";
+const contractAddress = "0xf44bB76929ddD7869347A0198F7F79BCABD19327";
 const abi = contract.abi;
 
 function App() {
@@ -76,15 +74,17 @@ function App() {
       const provider = new ethers.providers.Web3Provider(ethereum);
       const signer = provider.getSigner();
       const nftContract = new ethers.Contract(contractAddress, abi, signer);
+      console.log(nftContract)
       setContract(nftContract);
       const state = await nftContract.publicMintEnabled();
+      console.log(state)
       setMintState(state);
       
     
     } else {
       console.log("Please install metamask!");
     }
-  }
+  } 
 
   window.ethereum.on("accountsChanged", function () {
     console.log("accounts changed");
@@ -112,7 +112,10 @@ function App() {
       
     } catch (err) {
       console.log(err.message);
-      setError(err.message.toUpperCase());
+      if(err.message.toUpperCase()!=="METAMASK TX SIGNATURE: USER DENIED TRANSACTION SIGNATURE."){
+        setError(err.message.toUpperCase());
+      }
+      
     }
   };
 

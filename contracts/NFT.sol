@@ -52,7 +52,6 @@ contract NFT is ERC721, Ownable {
         require(totalMinted + quantity_ <= maxSupply, "sold out");
         
         if( msg.sender != owner() ){
-            console.log(owner());
             require(msg.value == quantity_ * mintPrice, "wrong mint value");
             require(mintPerWallet[msg.sender] + quantity_ <= maxMintPerWallet, "mint limit exceeded");
         }
